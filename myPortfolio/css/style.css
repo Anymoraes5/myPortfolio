@@ -9,11 +9,132 @@
 }
 body {
     background-color: #1a0b2e;
+    height: 150vh;
     /*background-image: linear-gradient(to bottom, #1a0b2e,#4b13bb,#8c52ff);
     background-attachment: fixed; */
 
 }
+.circles{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.circulo1{
+    position: absolute;
+    border-radius: 50%;
+    width: 765px;
+    height: 741px;
+    left: 377px;
+    top: 85px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*diferença*/
+.circulo2{
+     /* Ellipse 28 */
+
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     border-radius: 50%;
+     width: 765px;
+     height: 741px;
+     left: 377px;
+     top: 85px;
+ 
+     background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/*diferença de 77,85*/
+.circulo3{
+    /* Ellipse 30 */
+
+    position: absolute;
+    border-radius: 50%;
+    width: 616.53px;
+    height: 597.18px;
+    left: 451.21px;
+    top: 148.91px;
+
+    background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
+    background-blend-mode: color-dodge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*diferença de 77,85 left*/
+.circulo4{
+    /* Ellipse 29 */
+
+    position: absolute;
+    border-radius: 50%;
+    width: 460.81px;
+    height: 446.35px;
+    left: 529.09px;
+    top: 224.32px;
+
+    background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
+    background-blend-mode: color-dodge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*diferença de 61,57*/
+.circulo5{
+    /* Ellipse 27 */
+
+    position: absolute;
+    border-radius: 50%;
+    width: 337.69px;
+    height: 327.09px;
+    left: 590.66px;
+    top: 283.95px;
+
+    background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
+    background-blend-mode: color-dodge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* diferença de 40,74 left*/
+.circulo6{
+       /* Ellipse 26 */
+
+       position: absolute;
+       border-radius: 50%;
+       width: 256.21px;
+       height: 248.17px;
+       left: 631.4px;
+       top: 323.42px;
+   
+       background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
+       background-blend-mode: color-dodge;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+/*6 para 7 = difereça de 36,57 left*/
+.circulo7{
+        /* Ellipse 25 */
+
+        position: absolute;
+        border-radius: 50%;
+        width: 183.78px;
+        height: 178.02px;
+        left: 667.61px;
+        top: 358.49px;
+    
+        background: linear-gradient(206.79deg, #ABB8FF 10.14%, #352AFF 86.96%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 .bottons{
     color:aliceblue;
     font-size: 30px;
@@ -22,6 +143,7 @@ body {
 
     display: flex;
     justify-content: space-evenly;
+
     font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -41,126 +163,27 @@ body {
     background-color: aliceblue;
     color: #4b13bb;
 }
-.circles{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.circulo1{
-    position: absolute;
-    border-radius: 50%;
-    width: 765px;
-    height: 741px;
-    left: 377px;
-    top: 160px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.copyright{
     
-
-}
-/*diferença*/
-.circulo2{
-     /* Ellipse 28 */
-
-     position: absolute;
-     top: 30%;
-     left: 50%;
-     border-radius: 50%;
-     width: 765px;
-     height: 741px;
-     left: 377px;
-     top: 160px;
- 
-     background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-/*diferença de 77,85*/
-.circulo3{
-    /* Ellipse 30 */
-
     position: absolute;
-    border-radius: 50%;
-    width: 616.53px;
-    height: 597.18px;
-    left: 451.21px;
-    top: 231.91px;
+    top: 1300%;
 
-    background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
-    background-blend-mode: color-dodge;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*diferença de 77,85 left*/
-.circulo4{
-    /* Ellipse 29 */
 
-    position: absolute;
-    border-radius: 50%;
-    width: 460.81px;
-    height: 446.35px;
-    left: 529.09px;
-    top: 307.32px;
-
-    background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
-    background-blend-mode: color-dodge;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*diferença de 61,57*/
-.circulo5{
-    /* Ellipse 27 */
-
-    position: absolute;
-    border-radius: 50%;
-    width: 337.69px;
-    height: 327.09px;
-    left: 590.66px;
-    top: 366.95px;
-
-    background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
-    background-blend-mode: color-dodge;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* diferença de 40,74 left*/
-.circulo6{
-       /* Ellipse 26 */
-
-       position: absolute;
-       border-radius: 50%;
-       width: 256.21px;
-       height: 248.17px;
-       left: 631.4px;
-       top: 406.42px;
-   
-       background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
-       background-blend-mode: color-dodge;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-}
-
-/*6 para 7 = difereça de 36,57 left*/
-.circulo7{
-        /* Ellipse 25 */
-
-        position: absolute;
-        border-radius: 50%;
-        width: 183.78px;
-        height: 178.02px;
-        left: 667.61px;
-        top: 441.49px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-        background: linear-gradient(206.79deg, #ABB8FF 10.14%, #352AFF 86.96%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+
 }
 
