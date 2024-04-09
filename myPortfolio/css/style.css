@@ -11,3 +11,28 @@ body {
     background-image: linear-gradient(to bottom, #1a0b2e,#4b13bb,#8c52ff);
     background-attachment: fixed;
 }
+.bottons{
+    color:aliceblue;
+    font-size: 30px;
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.bottom{
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #8c52ff66;
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.bottom:hover{
+    background-color: aliceblue;
+    color: #4b13bb;
+}
