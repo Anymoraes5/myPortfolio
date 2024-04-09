@@ -1,0 +1,13 @@
+/* dev: Ana Caroline Moraes
+    data:08/04/2024
+    versão 1.0 */
+*{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, #1a0b2e,#4b13bb,#8c52ff);
+    background-attachment: fixed;
+}
