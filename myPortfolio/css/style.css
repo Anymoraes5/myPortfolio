@@ -1,17 +1,57 @@
-/* dev: Ana Caroline Moraes
-    data:08/04/2024
-    versão 1.0 */
+* dev: Ana Caroline Moraes
+    data: 14/04/2024
+    versão 2.0 */
 *{
-    height: 100%;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: #1a0b2e;
-    height: 150vh;
+     background-color: #1a0b2e;
+    
     /*background-image: linear-gradient(to bottom, #1a0b2e,#4b13bb,#8c52ff);
     background-attachment: fixed; */
+    width: 100%;
+    height: 100%;
+
+}
+.textback{
+    color: #000;
+    position: absolute;
+    top: 35.3%;
+    left: 35.3%;
+    font-size: 70px;
+    font-family:Poppins,'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.text1{
+    color: aliceblue;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 70px;
+    font-family:Poppins,'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.textback2{
+    color: #000;
+    position: absolute;
+    top: 52.4%;
+    left: 38.3%;
+    font-size: 70px;
+    font-family:Poppins,'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.text2{
+    color: aliceblue;
+    position: absolute;
+    top: 52%;
+    left: 38%;
+    font-size: 70px;
+    font-family:Poppins,'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-items: center;
 
 }
 .circles{
@@ -20,11 +60,11 @@ body {
     align-items: center;
 }
 .circulo1{
-    position: absolute;
+
     border-radius: 50%;
-    width: 765px;
-    height: 741px;
-    left: 377px;
+    width: 745px;
+    height: 721px;
+    left: 387px;
     top: 85px;
 
     display: flex;
@@ -40,11 +80,11 @@ body {
      top: 30%;
      left: 50%;
      border-radius: 50%;
-     width: 765px;
-     height: 741px;
-     left: 377px;
+     width: 745px;
+     height: 721px;
+     left: 387px;
      top: 85px;
- 
+
      background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
      display: flex;
      justify-content: center;
@@ -56,9 +96,9 @@ body {
 
     position: absolute;
     border-radius: 50%;
-    width: 616.53px;
-    height: 597.18px;
-    left: 451.21px;
+    width: 596.53px;
+    height: 577.18px;
+    left: 461.21px;
     top: 148.91px;
 
     background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
@@ -73,9 +113,9 @@ body {
 
     position: absolute;
     border-radius: 50%;
-    width: 460.81px;
-    height: 446.35px;
-    left: 529.09px;
+    width: 440.81px;
+    height: 426.35px;
+    left: 539.09px;
     top: 224.32px;
 
     background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
@@ -90,9 +130,9 @@ body {
 
     position: absolute;
     border-radius: 50%;
-    width: 337.69px;
-    height: 327.09px;
-    left: 590.66px;
+    width: 317.69px;
+    height: 307.09px;
+    left: 600.66px;
     top: 283.95px;
 
     background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
@@ -107,11 +147,11 @@ body {
 
        position: absolute;
        border-radius: 50%;
-       width: 256.21px;
-       height: 248.17px;
-       left: 631.4px;
+       width: 236.21px;
+       height: 228.17px;
+       left: 641.4px;
        top: 323.42px;
-   
+
        background: linear-gradient(206.79deg, rgba(171, 184, 255, 0.2) 10.14%, rgba(53, 42, 255, 0.2) 86.96%);
        background-blend-mode: color-dodge;
        display: flex;
@@ -125,33 +165,34 @@ body {
 
         position: absolute;
         border-radius: 50%;
-        width: 183.78px;
-        height: 178.02px;
-        left: 667.61px;
+        width: 163.78px;
+        height: 158.02px;
+        left: 677.61px;
         top: 358.49px;
-    
+
         background: linear-gradient(206.79deg, #ABB8FF 10.14%, #352AFF 86.96%);
         display: flex;
         justify-content: center;
         align-items: center;
 }
 .bottons{
-    color:aliceblue;
-    font-size: 30px;
+
     padding: 25px;
     padding-left: 30px;
 
     display: flex;
     justify-content: space-evenly;
 
-    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
-.bottom{
+#home{
+    color:aliceblue;
+    font-size: 30px;
     width: 200px;
     height: 45px;
     border-radius: 30px;
     background-color: #8c52ff66;
+    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
     display: flex;
@@ -159,31 +200,106 @@ body {
     align-items: center;
 
 }
-.bottom:hover{
+#home:hover{
     background-color: aliceblue;
     color: #4b13bb;
+    cursor: pointer;
+    transition: 0.8s;
+
 }
-.copyright{
-    
-    position: absolute;
-    top: 1300%;
+#sobre{
+    color:aliceblue;
+    font-size: 30px;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #8c52ff66;
+    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+#sobre:hover{
+    background-color: aliceblue;
+    color: #4b13bb;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+#projetos{
+    color:aliceblue;
+    font-size: 30px;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #8c52ff66;
+    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+#projetos:hover{
+    background-color: aliceblue;
+    color: #4b13bb;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+#contatos{
+    color:aliceblue;
+    font-size: 30px;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #8c52ff66;
+    font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+#contatos:hover{
+    background-color: aliceblue;
+    color: #4b13bb;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+.sobre {
+    background-color: #ABB8FF;
+}
+.projetos{
+    background-color: aliceblue;
+}
+/* .direitos{
     color: aliceblue;
     font-size: 50px;
     font-family: Share Tech Mono,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    
     display: flex;
     justify-content: center;
     text-align: center;
-
-}
+} */
 footer{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin-top: 50px;
+    /*background-color: bisque;
+    height: auto;
+    bottom: 0;*/
+
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 0;
     text-align: center;
+    margin-top: 1000%px;
 
 }
-
